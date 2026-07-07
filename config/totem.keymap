@@ -42,19 +42,19 @@
 
         base {
             bindings = <
-                &kp Q  &kp W  &kp E            &kp R      &kp T          &kp Y      &kp U  &kp I      &kp O    &kp MINUS
-                &kp A  &kp S  &kp D            &kp F      &kp G          &kp H      &kp J  &kp K      &kp L    &kp P
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C            &kp V      &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp LS(FSLH)  &kp BACKSPACE
-                              &lt 3 LC(SPACE)  &lt 2 TAB  &lt 1 SPACE    &lt 1 RET  &Copy  &Paste
+                &kp Q  &kp W  &kp E         &kp R      &kp T          &kp Y      &kp U            &kp I             &kp O    &kp MINUS
+                &kp A  &kp S  &kp D         &kp F      &kp G          &kp H      &kp J            &kp K             &kp L    &kp P
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V      &kp B          &kp N      &kp M            &kp COMMA         &kp DOT  &kp LS(FSLH)  &kp BACKSPACE
+                              &lt 3 ESCAPE  &lt 2 TAB  &lt 1 SPACE    &lt 1 RET  &lt 2 LC(SPACE)  &kp LEFT_CONTROL
             >;
         };
 
         nav_num {
             bindings = <
-               &kp ESC           &none         &kp LS(LEFT_ARROW)  &kp LS(RIGHT_ARROW)  &none     &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
-               &kp LEFT_CONTROL  &kp LEFT      &kp UP_ARROW        &kp RIGHT            &none     &kp PLUS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK
-&kp LG(SPACE)  &kp LEFT_SHIFT    &kp LEFT_GUI  &kp DOWN_ARROW      &none                &none     &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp N0
-                                               &trans              &trans               &trans    &none       &none         &none
+               &kp ESC           &none         &kp LS(LEFT_ARROW)  &kp LS(RIGHT_ARROW)  &kp LG(X)    &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
+               &kp LEFT_CONTROL  &kp LEFT      &kp UP_ARROW        &kp RIGHT            &kp LG(C)    &kp PLUS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK
+&kp LG(SPACE)  &kp LEFT_SHIFT    &kp LEFT_GUI  &kp DOWN_ARROW      &none                &kp LG(V)    &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp N0
+                                               &trans              &trans               &trans       &none       &none         &none
             >;
         };
 
