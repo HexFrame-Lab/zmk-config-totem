@@ -28,10 +28,10 @@
 
         base {
             bindings = <
-                &kp Q  &kp W  &kp E          &kp R         &kp T          &kp Y      &kp U            &kp I          &kp O    &kp P
-                &kp A  &kp S  &kp D          &kp F         &kp G          &kp H      &kp J            &kp K          &kp L    &kp MINUS
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C          &kp V         &kp B          &kp N      &kp M            &kp COMMA      &kp DOT  &kp LS(FSLH)  &kp TAB
-                              &lt 3 K_PASTE  &lt 2 K_COPY  &lt 1 SPACE    &lt 1 RET  &lt 2 BACKSPACE  &kp LC(SPACE)
+                &kp Q  &kp W  &kp E          &kp R         &kp T          &kp Y      &kp U            &kp I                                 &kp O    &kp P
+                &kp A  &kp S  &kp D          &kp F         &kp G          &kp H      &kp J            &kp K                                 &kp L    &kp MINUS
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C          &kp V         &kp B          &kp N      &kp M            &kp COMMA                             &kp DOT  &kp LS(FSLH)  &kp TAB
+                              &lt 3 K_PASTE  &lt 2 K_COPY  &lt 1 SPACE    &lt 1 RET  &lt 2 BACKSPACE  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
             >;
         };
 
