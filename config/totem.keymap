@@ -21,6 +21,20 @@
             bindings = <&kp LBKT &kp RBKT &kp LEFT_ARROW>;
             label = "JP_QUOTES";
         };
+
+        Copy: copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL &kp C>;
+            label = "COPY";
+        };
+
+        Paste: Paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL &kp V>;
+            label = "PASTE";
+        };
     };
 
     keymap {
@@ -28,10 +42,10 @@
 
         base {
             bindings = <
-                &kp Q  &kp W  &kp E        &kp R        &kp T          &kp Y      &kp U            &kp I          &kp O    &kp MINUS
-                &kp A  &kp S  &kp D        &kp F        &kp G          &kp H      &kp J            &kp K          &kp L    &kp P
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C        &kp V        &kp B          &kp N      &kp M            &kp COMMA      &kp DOT  &kp LS(FSLH)  &kp TAB
-                              &lt 3 LC(V)  &lt 2 LC(C)  &lt 1 SPACE    &lt 1 RET  &lt 2 BACKSPACE  &kp LC(SPACE)
+                &kp Q  &kp W  &kp E            &kp R      &kp T          &kp Y      &kp U  &kp I      &kp O    &kp MINUS
+                &kp A  &kp S  &kp D            &kp F      &kp G          &kp H      &kp J  &kp K      &kp L    &kp P
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C            &kp V      &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp LS(FSLH)  &kp BACKSPACE
+                              &lt 3 LC(SPACE)  &lt 2 TAB  &lt 1 SPACE    &lt 1 RET  &Copy  &Paste
             >;
         };
 
